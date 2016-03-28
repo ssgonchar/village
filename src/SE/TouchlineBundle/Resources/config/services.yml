@@ -1,0 +1,4 @@
+services:
+#    se_touchline.example:
+#        class: SE\TouchlineBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

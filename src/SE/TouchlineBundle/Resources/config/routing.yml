@@ -1,0 +1,12 @@
+#se_touchline_homepage:
+#    path: "touchline/message/new"
+#    defaults: { _controller: SETouchlineBundle:Default:index }
+se_touchline_message_new:
+    path: "touchline/message/new"
+    defaults: { _controller: SETouchlineBundle:Default:write }
+se_touchline_message_reply:
+    path: "touchline/message/{id}/reply"
+    defaults: { _controller: SETouchlineBundle:Default:reply }
+se_touchline_message_reply_reject:
+    path: "touchline/message/reply"
+    defaults: { _controller: SETouchlineBundle:Default:reply }
